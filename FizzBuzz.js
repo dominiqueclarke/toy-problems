@@ -1,3 +1,8 @@
+/* Write a program that prints the numbers from 1 to the passed in number.
+But for multiples of three console.log “Fizz” instead of the number and for the
+multiples of five console.log “Buzz”. For numbers which are multiples of both
+three and five console.log “FizzBuzz”. */
+
 function fizzBuzz(num) {
 	for(var i = 1; i <= num; i++) {
 		if(i % 3 === 0 && i % 5 === 0) {

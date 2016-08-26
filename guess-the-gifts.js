@@ -53,7 +53,7 @@ function guessGifts(w, p) {
   for(var i = 0; i < w.length; i++) {
     for(var j = 0; j < p.length; j++) {
       if(w[i].size === p[j].size && w[i].clatters === p[j].clatters && w[i].weight === p[j].weight) {
-        if(possiblePresents.indexOf(w[i].name) === -1) {
+        if(possiblePresents.indexOf(w[i].name) === -1) { //Check for duplicates
           possiblePresents.push(w[i].name)
         }
       }
